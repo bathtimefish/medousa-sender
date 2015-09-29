@@ -1,0 +1,15 @@
+
+/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #000;
+}
+
+div.monitor {
+  text-align: center;
+}
+
+#sender-video {
+  width: 85%;
+}

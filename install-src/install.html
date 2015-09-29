@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Install Medoussa Sender</title>
+  </head>
+  <body>
+    <p>Install Sender</p>
+    <script>
+      var manifestUrl = 'http://medousa.bathtimefish.com/manifest.webapp';
+      var req = navigator.mozApps.install(manifestUrl);
+      req.onsuccess = function() {
+        alert(this.result.origin);
+      };
+      req.onerror = function() {
+        alert(this.error.name);
+      };
+    </script>
+  </body>
+</html>

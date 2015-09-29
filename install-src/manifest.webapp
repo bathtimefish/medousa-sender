@@ -1,0 +1,30 @@
+{
+  "name": "Medousa Sender",
+  "description": "Medousa Sender App",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "BathTimeFish",
+    "url": "http://www.bathtimefish.com/"
+  },
+  "locales": {
+    "ja": {
+      "name": "Medousa Sender"
+    }
+  },
+  "default_locale": "ja",
+  "installs_allowed_from": ["*"],
+  "permissions": {
+    "video-capture": {
+      "description": "Required to capture audio via getUserMedia"
+    },
+    "audio-capture": {
+      "description": "Required to capture audio via getUserMedia"
+    }
+  },
+  "fullscreen": "true"
+}
